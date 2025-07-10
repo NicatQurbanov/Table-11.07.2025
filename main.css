@@ -1,0 +1,122 @@
+* {
+ margin: 0;
+ box-sizing: border-box;
+ font-family: Lato;
+}
+
+table {
+ width: 990px;
+ height: 540px;
+ margin: 10px auto 0;
+ border-collapse: collapse;
+}
+
+th:first-of-type {
+ background-color: #7987ac;
+ border-top-left-radius: 12px;
+
+}
+
+th:nth-of-type(2) {
+ background-color: #4f628d;
+}
+
+th:nth-of-type(3) {
+ background-color: #2f4173;
+}
+
+th:nth-of-type(4) {
+ background-color: #162954;
+}
+
+th:nth-of-type(5) {
+ background-color: #07153a;
+ border-top-right-radius: 12px;
+}
+
+li,
+th {
+ color: white;
+}
+
+li {
+ list-style-type: none;
+}
+
+ul {
+ padding-inline-start: 0;
+}
+
+tr:nth-of-type(even) td:first-child,
+tr:nth-of-type(even) td:nth-of-type(3),
+tr:nth-of-type(even) td:nth-of-type(5) {
+ background-color: #dbdbdb;
+}
+
+tr:nth-of-type(odd) td:first-child,
+tr:nth-of-type(odd) td:nth-of-type(3),
+tr:nth-of-type(odd) td:nth-of-type(5) {
+ background-color: #e7e7e7;
+}
+
+tr:nth-of-type(even) td:nth-child(2),
+tr:nth-of-type(even) td:nth-child(4) {
+ background-color: #e4e4e4;
+}
+
+tr:nth-of-type(odd) td:nth-child(2),
+tr:nth-of-type(odd) td:nth-child(4) {
+ background-color: #ececec;
+}
+
+tr:last-child {
+ height: 87px;
+
+}
+
+tr>td:first-of-type {
+ padding-left: 40px;
+ width: 350px;
+}
+
+tr:last-child>td:first-of-type {
+ border-bottom-left-radius: 12px;
+}
+
+tr:last-child>td:last-of-type {
+ border-bottom-right-radius: 12px;
+}
+
+tr>td:nth-child(1n+2) {
+ text-align: center;
+}
+
+tr:first-child>th:first-child {
+ font-size: 1.25rem;
+}
+
+tr:first-child>th:nth-child(1n+2)>ul>li:nth-child(2) {
+ font-size: 2rem;
+}
+
+tr:first-child {
+ height: 150px;
+}
+
+tr:first-child>th:nth-child(1n+2)>ul>li:first-child {
+ margin-bottom: 35px;
+}
+
+
+tr:last-child a {
+ width: 110px;
+ height: 40px;
+ background-color: #d3d3d3;
+ display: inline-block;
+ border: 1px solid #b6b5b5;
+ color: #848488;
+ text-decoration: none;
+ font-weight: bold;
+ padding: 9px;
+ font-size: 0.95rem;
+}
